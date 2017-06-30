@@ -60,7 +60,7 @@ public class Kazuate {
 			System.out.println("回答の制限回数を超えました。正解は" + nCorrectNumber + "です。");
 		}
 
-		//
+		//標準出力ストリームをクローズ
 		stdIn.close();
 	}
 
