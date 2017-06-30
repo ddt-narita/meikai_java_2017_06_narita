@@ -11,7 +11,7 @@ package e_01_02;
 class Name {
 	//名前クラスのメインメソッド
 	public static void main(String[] arg) {
-		//成を表示して改行表示
+		//名前を一行ずつ改行表示
 		System.out.println("成\n田\n修\n之");
 	}
 }
