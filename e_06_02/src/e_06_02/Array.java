@@ -9,16 +9,21 @@ package e_06_02;
 public class Array {
 
 	public static void main(String[] args) {
-		
+		//配列の要素数
 		int nArrayNumber = 5;
-		
+
+		//要素数5の配列のインスタンスを生成
 		int[] nArray = new int[5];
-		
+
+		//要素数分繰り返す
 		for(int i = 0; i < nArrayNumber; i++) {
+			//各要素に先頭から5,4,3,2,1となるように代入
 			nArray[i] = 5 - i;
 		}
-		
+
+		//要素数分繰り返す
 		for(int i = 0; i < nArrayNumber; i++) {
+			//各要素を表示する
 			System.out.println("a[" + i + "] = " + nArray[i]);
 		}
 	}
