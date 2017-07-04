@@ -30,7 +30,7 @@ public class Month {
 
 		//利用者が望む限り何度でも繰り返せる
 		for(;retry == 1;) {
-			String strInputMonth;		//
+			String strInputMonth;		//綴りを入力するための変数
 			int month = 1;				//ランダムな月を入力するための変数for文の条件のために前の月の変数と同じ値で初期化
 			int preMonth = 1;			//前の月を保管しておくための変数
 
