@@ -31,11 +31,13 @@ public class Array {
 
 		//配列の2番目から最後まで繰り返す
 		for(int i = 1; i < nArrayNumber; i++) {
-			do{
+			//for分の条件に合わせて初めの一回目に入れるように一戸手前の値で初期化
+			nArray[i] = nArray[i - 1];
+			//一個手前の値と同じである限り繰り返す
+			for(;nArray[i] == nArray[i - 1];) {
 				//各要素に1から10までの値を入力する
 				nArray[i] = rand.nextInt(10) + 1;
-			//一個手前の値と同じである限り繰り返す
-			}while(nArray[i] == nArray[i - 1]);
+			}
 
 		}
 
