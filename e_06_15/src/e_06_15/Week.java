@@ -64,7 +64,7 @@ public class Week {
 			}
 
 			//正解であることを明示しこのゲームをもう一度行うかどうか入力をうながす
-			System.out.print("正解です。もう一度？ 1…Yes/0…No");
+			System.out.print("正解です。もう一度？ 1…Yes/0…No：");
 			//もう一度行うかどうか入力
 			retry = stdIn.nextInt();
 		}
