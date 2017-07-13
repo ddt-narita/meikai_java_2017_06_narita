@@ -4,7 +4,7 @@ package e_13_04;
  * クラスHumanはその人の情報を表すクラスです。
  * 名前、身長、体重、生年月日を持っています。
  * @author 成田修之
- * @see object
+ * @see Object
  */
 public class Human {
 	private String name;	//名前のインスタンス変数
